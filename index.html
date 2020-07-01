@@ -1,18 +1,50 @@
 <html>
 <head>
   <style>
-body, html {
-  background-color: #999
+body {
+  height: 100vh;
+  background-color: #485461;
+background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  color: #D2CCC4;
+  font-family: sans-serif;
+  font-size: 20px;
+  scroll-behavior: smooth;
+  letter-spacing: -1px;
 }
-h1 {
-  color: mustard;
-  font-size: 100px;
-  margin: auto;
-  line-height: 100vh;
+
+.header {
+  margin: 20vh auto;
+  max-width: 50%;
+  
+}
+
+.header h1 {
+  font-size: 4rem;
+  margin-bottom: 0px;
+}
+
+#myName {
+  color: #ddbb00;
+}
+
+.introLine {
+  margin: 0px;
+  text-align: right;
+  font-weight: 100;
 }
   </style>
 </head>
 <body>
-  <h1>MylkMatch.....soon.
+<div class='header' id='intro'>
+  <h1 id='introToMe'>
+    Hey! I'm creating a new site called <span id='myName'>Mylk Match</span>.
+  </h1> 
+  <p class='introLine' id='introLine1'>
+    It'll be here soon
+  </p>
+  <p class='introLine' id='introLine2'>
+    (...not too much longer)
+  </p>
+</div>
 </body>
 </html>
